@@ -17,7 +17,7 @@ build:		$(HTML)
 	cp -frv static/ico/favicon.ico	$(WWWROOT)/.
 
 install:	build
-	lftp -c "open -u root,${{ secrets.GITHUB_TOKEN }} sftp://cse3320.org; mirror -n -e -R -L $(WWWROOT) /usr/share/nginx/html/$(COURSE)" 
+	lftp -c "open -u root,placeholder sftp://cse3320.org; mirror -n -e -R -L $(WWWROOT) /usr/share/nginx/html/$(COURSE)" 
 
 push:
 	git checkout docs && git pull --rebase && git push
