@@ -1,4 +1,4 @@
-title:      CE3320 Operating Systems
+title:      CSE3320 Operating Systems
 icon:       fa-linux
 navigation:
     - name: "Information"
@@ -82,7 +82,7 @@ body:       |
             <dd><a href="http://www.cse3320.org/~tbakker/">Trevor Bakker</a> (<a href="mailto:trevor.bakker@uta.edu">trevor.bakker@uta.edu</a>)</dd>
 
             <dt><i class="fa fa-life-ring"></i> Office Hours</dt>
-            <dd><strong>Friday</strong> 8:00 AM - 11:30 AM, and by <strong>appointment</strong></dd>
+            <dd><strong>Friday</strong> 8:00 AM - 11:00 AM, and by <strong>appointment</strong></dd>
 
             <dt><i class="fa fa-briefcase"></i> Office Location</dt>
             <dd>321 Engineering Research Building</dd>
