@@ -18,7 +18,7 @@ jobs:
       run: sudo apt-get -y update && sudo apt-get -y install python3-tornado python3-yaml python3-markdown python3-dateutil
 
     - name: Build site
-      run: make clean && make build
+      run: make clean && make build && make install
 
     - name: Deploy back to gh
       env:
