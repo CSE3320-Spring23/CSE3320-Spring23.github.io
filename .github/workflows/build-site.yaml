@@ -1,0 +1,33 @@
+name: Build Site
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs: 
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Install deps
+      run: sudo apt-get -y update && sudo apt-get -y install python3-tornado python3-yaml python3-markdown python3-dateutil
+
+    - name: Build site
+      run: make clean && make build
+
+    - name: Deploy back to gh
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: |
+        if [ -n "$GITHUB_HEAD_REF" ]; then git checkout "$GITHUB_HEAD_REF"; fi
+        git config --local user.name "GitHub Actions"
+        git config --local user.email "<>"
+        git checkout gh-pages
+        git add docs/
+        git commit -m 'GitHub Actions: build site' || echo 'nothing to commit'
+        git push origin gh-pages || echo 'nothing to push'
