@@ -1,0 +1,54 @@
+{
+    "q01": {
+        "type": "multiple",
+        "question": "\n<p>Throughout the tasks for Homework 01, you had to reference the\n<tt>HOME</tt> directory.  Which of the following are valid ways of\nreferring to your <tt>HOME</tt> directory in <tt>bash</tt>?</p>\n",
+        "responses": {
+            "a": "~",
+            "b": ".",
+            "c": "%HOME%",
+            "d": "$home",
+            "e": "$HOME"
+        }
+    },
+    "q02": {
+        "type": "single",
+        "question": "\n<p>What happens if you <tt>touch</tt> an existing file?</p>\n",
+        "responses": {
+            "a": "Nothing happens.",
+            "b": "File is deleted.",
+            "c": "File is truncated.",
+            "d": "File modification time is updated."
+        }
+    },
+    "q03": {
+        "type": "multiple",
+        "question": "\n<p>Which of the following statements regarding symlinks and hardlinks are\ntrue?</p>\n",
+        "responses": {
+            "a": "A soft link cannot cross partition boundaries.",
+            "b": "A soft link contains the path to its target reference.",
+            "c": "A hard link appears as a separate file but actually points to an existing inode.",
+            "d": "A hard link is typically slower than a soft link."
+        }
+    },
+    "q04": {
+        "type": "single",
+        "question": "\n<p>Which of the following pipelines counts all the \"Permission denied\"\nerrors encountered when recursively searching file names under the \"/etc\"\ndirectory?</p>\n",
+        "responses": {
+            "a": "find /etc > /dev/null | wc -l",
+            "b": "find /etc 2> /dev/null | wc -l",
+            "c": "find /etc 2>&1 > /dev/null | wc -l",
+            "d": "find /etc > /dev/null 2>&1 | wc -l"
+        }
+    },
+    "q05": {
+        "type": "single",
+        "question": "\n<p>Which one of the following signals triggers the <b>matrix</b> when sent\nto the <tt>TROLL</tt>?</p>\n",
+        "responses": {
+            "a": "HUP",
+            "b": "BUS",
+            "c": "ALRM",
+            "d": "USR1",
+            "e": "USR2"
+        }
+    }
+}

@@ -1,0 +1,17 @@
+- name:     Introduction
+  days:
+      - date:           Wed 01/18
+        topics:         Syllabus
+        items:
+          - name:       Slides 00
+            link:       
+          - name:       Slides 01
+            link:       
+
+      - date:           Fri 01/20
+        topics:         Git
+        assignment:     Reading 00
+        items:
+          - name:       Slides 02
+            link:       
+
