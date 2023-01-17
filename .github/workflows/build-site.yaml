@@ -18,7 +18,7 @@ jobs:
       run: sudo apt-get -y update && sudo apt-get -y install lftp python3-tornado python3-yaml python3-markdown python3-dateutil
 
     - name: Build site
-      run: make clean && make build
+      run: make clean
 
     - name: Deploy back to gh
       env:
@@ -28,6 +28,7 @@ jobs:
         git config --local user.name "GitHub Actions"
         git config --local user.email "<>"
         git checkout gh-pages
+        make build
         git add docs/
         git commit -m 'GitHub Actions: build site' || echo 'nothing to commit'
         git push origin gh-pages || echo 'nothing to push'
