@@ -21,7 +21,7 @@ body:       |
     <script src="https://kit.fontawesome.com/4807499673.js" crossorigin="anonymous"></script>
     <div class="row" markdown="1">
 
-    **CSE 3320** is a core [Computer Science and Engineering] course at the
+    **SE 3320** is a core [Computer Science and Engineering] course at the
     [University of Texas at Arlington] that explores the fundamentals of computing
     systems.  This course introduces many different aspects of modern operating systems. 
     Topics may include process structure and synchronization, interprocess communication, 
@@ -82,7 +82,7 @@ body:       |
             <dd><a href="http://www.cse3320.org/~tbakker/">Trevor Bakker</a> (<a href="mailto:trevor.bakker@uta.edu">trevor.bakker@uta.edu</a>)</dd>
 
             <dt><i class="fa fa-life-ring"></i> Office Hours</dt>
-            <dd><strong>Friday</strong> 8:00 AM - 11:00 AM, and by <strong>appointment</strong></dd>
+            <dd><strong>Friday</strong> 8:00 AM - 11:30 AM, and by <strong>appointment</strong></dd>
 
             <dt><i class="fa fa-briefcase"></i> Office Location</dt>
             <dd>321 Engineering Research Building</dd>
