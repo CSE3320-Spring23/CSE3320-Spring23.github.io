@@ -31,3 +31,20 @@ jobs:
         git add docs/
         git commit -m 'GitHub Actions: build site' || echo 'nothing to commit'
         git push origin gh-pages || echo 'nothing to push'
+        
+      - name: Deploy files via SFTP
+        uses: pressidium/lftp-mirror-action@v1
+        with:
+          # SFTP credentials
+          host: ${{ secrets.SFTP_HOST }}
+          user: ${{ secrets.SFTP_USER }}
+          pass: ${{ secrets.SFTP_PASS }}
+          # lftp settings
+          onlyNewer: true
+          settings: 'sftp:auto-confirm=yes'
+          # Mirror command options
+          localDir: '.'
+          remoteDir: '/usr/share/nginx/html/'
+          reverse: true
+          ignoreFile: '.lftp_ignore'
+          options: '--verbose'
