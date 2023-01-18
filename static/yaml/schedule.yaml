@@ -25,7 +25,7 @@
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%202.pdf
             
 - name:       Processes
-   days:
+  days:
       - date:           Wed 02/01
         topics:         Virtualization
         assignment:     git and GitHub Due
