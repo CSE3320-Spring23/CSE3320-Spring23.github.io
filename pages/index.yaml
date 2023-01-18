@@ -281,7 +281,7 @@ body:       |
             </thead>
             <tbody>
                 <tr>
-                    <td><span class="label label-primary">Programs and Quizzes</span> Weekly reading assignments.</td>
+                    <td><span class="label label-primary">Programs and Quizzes</span> Programming assignments and their related quizzes.</td>
                     <td class="text-center">60%</td>
                 </tr>
                 <tr>
