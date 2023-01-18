@@ -208,8 +208,8 @@
 - name:     "Final Exam"
   days:
       - date:           Mon 05/08
-        topics:          "Final Exam: 7:00pm class (001) 8:15PM - 10:45PM"
+        items:          "Final Exam: 7:00pm class (001) 8:15PM - 10:45PM"
       - date:           Mon 05/10
-        topics:          "Final Exam: 5:30pm class (003) 5:30PM - 8:00PM"
+        items:          "Final Exam: 5:30pm class (003) 5:30PM - 8:00PM"
 
      
