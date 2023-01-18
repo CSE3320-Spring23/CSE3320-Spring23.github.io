@@ -133,57 +133,81 @@
       - date:           Mon 03/27
         items:
           - name:       Exam 02
-
+- name:     "File System Examples"
+  days:
       - date:           Wed 03/29
         topics:         FAT-32, ext-x, ISO9660
         items:
           - name:       Slides 13
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2013.pdf
-
+            
+- name:     "File System Performance"
       - date:           Mon 04/03
-        topics:         Disck Scheduling, Backups
+        topics:         Disk Scheduling, Backups
         items:
           - name:       Slides 14
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2014.pdf
             
-    
+- name:     "I/O, Networks and Security"
 
-- name:     "I/O and Files"
-  days:
+- name:     "I/0"
+      - date:           Wed 04/05
+        topics:         I/O, Device Drivers
+        items:
+          - name:       Slides 15
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2015.pdf
+            
       - date:           Mon 04/10
-        topics:         Easter
-
+        assignment:     "Program #4 Assigned"
+        items:
+          - name:       "Quiz #3"
+          - name:       "Program #3 Due"
+        
+- name:     "Encryption"
+  days:
       - date:           Wed 04/12
-        topics:         I/O
-        assignment:     Reading 11
+        topics:         Encryption
+        assignment:     "Homework: git and GitHub"
+        items:
+          - name:       Slides Encruption
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Encryption.pdf
 
-- name:     "Sockets"
+- name:     "Security"
   days:
       - date:           Mon 04/17
-        topics:         TCP/IP, URLs, Sockets
-        assignment:     Reading 12
+        topics:         Cybersecurity, Authentication
+        items:
+          - name:       Slides 15
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2016.pdf
 
       - date:           Wed 04/19
-        topics:         HTTP Client
+        topics:         Cybersecurity, Authentication
+        items:
+          - name:       Slides 15
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2016.pdf
 
-- name:     "Processes"
+- name:     "Resumes"
   days:
       - date:           Mon 04/24
-        topics:         Processes
-        assignment:     Reading 13
+        topics:         Resumes and Interviews
 
-      - date:           Wed 04/26
-        topics:         Signals
-
-- name:     "Exam 03"
+- name:     "Review"
   days:
+      - date:           Wed 04/26
+        topic:          Review
+        assignment:     "Program #4 Assigned"
+        items:
+          - name:       "Quiz #4"
+          - name:       "Program #4 Due"
+          
       - date:           Mon 05/01
-        items:
-          - name:       Checklist 03
+        topic:          Review
 
-      - date:           Tue 05/03
-        topics:         TBD
+- name:     "Final Exam"
+  days:
+      - date:           Mon 05/08
+        topic:          "Final Exam: 7:00pm class (001) 8:15PM - 10:45PM"
+      - date:           Mon 05/10
+        topic:          "Final Exam: 5:30pm class (003) 5:30PM - 8:00PM"
 
-      - date:           Fri 05/12
-        items:
-          - name:       Exam 03
+     
