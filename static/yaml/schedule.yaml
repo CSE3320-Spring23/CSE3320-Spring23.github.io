@@ -88,32 +88,39 @@
           - name:       "Program #1 Due / Quiz #1"
           
 
-- name:     "Data Processing"
+- name:     "Memory Management"
   days:
-      - date:           Mon 02/27
-        topics:         CSV
-        assignment:     Program #1 Due
-
       - date:           Wed 03/01
-        topics:         JSON
+        topics:         Binding, Heap, Overlays, Heap Allocation
+        items:
+          - name:       Slides Binding
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Binding.pdf
+          - name:       Slides 10
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2010.pdf
 
-- name:     "Functional Programming"
+- name:     "Demand Paging"
   days:
       - date:           Mon 03/06
-        topics:         Iterators, Generators
-        assignment:     Reading 07
+        topics:         Paging, EAT
+        items:
+          - name:       Slides 11
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2011.pdf
 
       - date:           Wed 03/08
-        topics:         Parallel Computing
+        topics:         Paging, EAT
+        items:
+          - name:       Slides 11
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2011.pdf
 
 - name:     "Spring Break"
 
-- name:     "Exam 02"
+- name:     "File Systems"
   days:
       - date:           Mon 03/20
-        assignment:     Reading 08
+        topics:         File Systems, Disk Allocation, Directories
         items:
-          - name:       Checklist 02
+          - name:       Slides 12
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2012.pdf
 
       - date:           Wed 03/22
         items:
