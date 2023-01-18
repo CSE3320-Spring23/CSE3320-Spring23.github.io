@@ -2,15 +2,33 @@
   days:
       - date:           Wed 01/18
         topics:         Syllabus and Course Details
-        items: 
-           - name:      Chapter 1
-             link:      https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%201.pdf
      
-
       - date:           Mon 01/23
-        topics:         Operating System Conceport
+        topics:         Chapter 1 
+        assignment:     git and GitHub
+        items:
+          - name:       Slides 01
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%201.pdf
+     
+      - date:           Wed 01/25
+        topics:         Chapter 2 
         assignment:     git and GitHub
         items:
           - name:       Slides 02
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%202.pdf
+            
+      - date:           Mon 01/30
+        topics:         Chapter 2 
+        assignment:     
+        items:
+          - name:       Slides 02
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%202.pdf
+            
+-name:       Processes
 
+      - date:           Wed 02/01
+        topics:         Virtualization
+        assignment:     git and GitHub Due
+        items:
+          - name:       Slides 07
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter07.pdf
