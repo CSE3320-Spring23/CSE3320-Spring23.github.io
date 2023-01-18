@@ -142,6 +142,7 @@
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2013.pdf
             
 - name:     "File System Performance"
+  days:
       - date:           Mon 04/03
         topics:         Disk Scheduling, Backups
         items:
@@ -151,6 +152,7 @@
 - name:     "I/O, Networks and Security"
 
 - name:     "I/0"
+  days:
       - date:           Wed 04/05
         topics:         I/O, Device Drivers
         items:
