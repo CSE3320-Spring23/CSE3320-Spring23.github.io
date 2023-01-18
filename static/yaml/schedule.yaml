@@ -79,7 +79,7 @@
           - name:       Slides Binding
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Binding.pdf
           - name:       Slides 10
-            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%209.pdf
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2010.pdf
 
       - date:           Mon 02/27
         topics:          Heap, Overlays, Heap Allocation
@@ -114,8 +114,9 @@
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2011.pdf
 
 - name:     "Spring Break"
-
 - name:     "File Systems"
+
+- name:     "File Systems Fundamentals"
   days:
       - date:           Mon 03/20
         topics:         File Systems, Disk Allocation, Directories
@@ -124,28 +125,28 @@
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2012.pdf
 
       - date:           Wed 03/22
+        assignment:     "Program #3 Assigned"
+        items:
+          - name:       "Quiz #2"
+          - name:       "Program #2 Due"
+          
+      - date:           Mon 03/27
         items:
           - name:       Exam 02
 
-- name:     "File Systems"
-
-- name:     "Pointers, Arrays, Strings"
-  days:
-      - date:           Mon 03/27
-        topics:         Pointers, Arrays, Strings
-        assignment:     Reading 09
-
       - date:           Wed 03/29
-        topics:         Debugging (GDB, Valgrind)
+        topics:         FAT-32, ext-x, ISO9660
+        items:
+          - name:       Slides 13
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2013.pdf
 
-- name:     "Memory Management"
-  days:
       - date:           Mon 04/03
-        assignment:     Reading 10
-        topics:         Structs, Unions
-
-      - date:           Wed 04/05
-        topics:         Linked Data Structures
+        topics:         Disck Scheduling, Backups
+        items:
+          - name:       Slides 14
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2014.pdf
+            
+    
 
 - name:     "I/O and Files"
   days:
