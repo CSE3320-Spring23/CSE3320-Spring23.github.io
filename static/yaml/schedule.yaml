@@ -85,7 +85,8 @@
         topics:          Heap, Overlays, Heap Allocation
         assignment:     "Program #2 Assigned"
         items:
-          - name:       "Program #1 Due / Quiz #1"
+          - name:       "Quiz #1"
+          - name:       "Program #1 Due"
           
 
 - name:     "Memory Management"
