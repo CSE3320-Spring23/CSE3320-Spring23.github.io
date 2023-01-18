@@ -73,7 +73,7 @@
 
 - name:     "Memory Management"
   days:
-      - date:           Mon 02/22
+      - date:           Wed 02/22
         topics:         Binding, Heap, Overlays, Heap Allocation
         items:
           - name:       Slides Binding
@@ -81,14 +81,12 @@
           - name:       Slides 10
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%209.pdf
 
-      - date:           Wed 02/27
+      - date:           Mon 02/27
         topics:          Heap, Overlays, Heap Allocation
-        assignment:     "Program #1 Due"
         assignment:     "Program #2 Assigned"
-        assignment:     "Quiz #1"
         items:
-          - name:       Slides 10
-            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%209.pdf
+          - name:       "Program #1 Due / Quiz #1"
+          
 
 - name:     "Data Processing"
   days:
