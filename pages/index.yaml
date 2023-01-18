@@ -239,7 +239,7 @@ body:       |
                     {% set assignment = day.get('assignment') %}
                     {% if assignment %}
                     {% set assignment_id = ''.join(assignment.lower().split()) %}
-                    {% if assignment_id.startswith('reading') %}
+                    {% if assignment_id.startswith('program') %}
                       {% set assignment_label = 'primary' %}
                     {% elif assignment_id.startswith('homework') %}
                       {% set assignment_label = 'caution' %}
