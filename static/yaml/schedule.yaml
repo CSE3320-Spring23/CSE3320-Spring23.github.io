@@ -1,17 +1,16 @@
 - name:     Introduction
   days:
       - date:           Wed 01/18
-        topics:         Syllabus
-        items:
-          - name:       Slides 00
-            link:       
-          - name:       Slides 01
-            link:       
+        topics:         Syllabus and Course Details
+        items: 
+           - name:      Chapter 1
+             link:      https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%201.pdf
+     
 
-      - date:           Fri 01/20
-        topics:         Git
-        assignment:     Reading 00
+      - date:           Mon 01/23
+        topics:         Operating System Conceport
+        assignment:     git and GitHub
         items:
           - name:       Slides 02
-            link:       
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%202.pdf
 
