@@ -1,40 +1,34 @@
 - name:     Introduction
   days:
       - date:           Wed 01/18
-        topics:         Syllabus, Unix Shell
-        items:
-          - name:       Slides 00
-            link:       https://docs.google.com/presentation/d/1fxigtaWWz5D0jGQNiF0EJAdByqq13BE6B1HELAPx7fk/edit?usp=sharing
-          - name:       Slides 01
-            link:       https://docs.google.com/presentation/d/1wCa6ZIU5QVSdnoCljNA5h3UjtouCviSg7fjaYvWLdXs/edit?usp=sharing
+        topics:         Syllabus
+        
+- name:     "Overview"        
 
-- name:     "Unit 01: Bourne Shell"
-
-- name:     "Using the Shell"
+- name:     "Operating Systems Overview"
   days:
       - date:           Mon 01/23
-        topics:         Files
-        assignment:     Reading 01
+        topics:         OS Concepts
+        assignment:     git and GitHub
         items:
-          - name:       Slides 03
-            link:       https://docs.google.com/presentation/d/1Au0QvHnLEG2R4aKRSeC7H3QlbqceoJ22FP8eebZ-QEo/edit?usp=sharing
+          - name:       Slides 01
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%201.pdf
 
       - date:           Wed 01/25
-        topics:         Processes, I/O Redirection
+        topics:         OS Components, Architecture, Kernels
         items:
-          - name:       Slides 04
-            link:       https://docs.google.com/presentation/d/1MdQDnMADs95aTFmUwaVdgNHDi-YKieg_FCa-PjWh8-U/edit?usp=sharing
-          - name:       Slides 05
-            link:       https://docs.google.com/presentation/d/1Mq9OpL8I8CqCkM5eHFhUclTPnQaQj9Jf9NyLCf9blz8/edit?usp=sharing
+          - name:       Slides 02
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%202.pdf
 
-- name:     "Shell Scripting"
+- name:     "Processes"
+
+- name:     "Virtualization"
   days:
       - date:           Mon 01/30
-        topics:         Variables, Command Substitution, Matching
-        assignment:     Reading 02
-
-      - date:           Wed 02/01
-        topics:         Control Flow, Command Line Arguments
+        topics:         Virtualizations, Containers, Hypervisors, Cloud
+        items:
+          - name:       Slides 07
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter07.pdf
 
 - name:     "Text Filtering"
   days:
@@ -56,7 +50,7 @@
         items:
           - name:       Exam 01
 
-- name:     "Unit 02: Python"
+- name:     "Memory Management"
 
 - name:     "Python Scripting"
   days:
@@ -99,7 +93,7 @@
         items:
           - name:       Exam 02
 
-- name:     "Unit 03: C"
+- name:     "File Systems"
 
 - name:     "Pointers, Arrays, Strings"
   days:
