@@ -30,23 +30,41 @@
           - name:       Slides 07
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter07.pdf
 
-- name:     "Text Filtering"
+- name:     "Processes"
   days:
       - date:           Mon 02/06
-        topics:         Regular Expressions
-        assignment:     Reading 03
+        topics:         Process Creation, IPC
+        items:
+          - name:       Slides 08 Part 1
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%208%20Part%201.pdf
 
       - date:           Wed 02/08
-        topics:         Filters
+        topics:         Process Scheduling
+        items:
+          - name:       Slides 08 Part 1
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%208%20Part%201.pdf
+          - name:       Slides 08 Part 2
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%208%20Part%202.pdf
 
-- name:     "Exam 01"
+- name:     "Threading"
   days:
       - date:           Mon 02/13
-        assignment:     Reading 04
+        topics:         Threads, Race Conditions, Deadlocks
         items:
-          - name:       Checklist 01
+          - name:       Slides 08 Part 2
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%208%20Part%202.pdf
+          - name:       Slides 09
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%209.pdf
 
       - date:           Wed 02/15
+        topics:         Threads, Race Conditions, Deadlocks
+        items:
+          - name:       Slides 09
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%209.pdf
+            
+- name:     "Exam 01"
+  days:
+      - date:           Mon 02/20
         items:
           - name:       Exam 01
 
