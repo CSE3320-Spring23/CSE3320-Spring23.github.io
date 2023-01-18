@@ -171,7 +171,7 @@
         topics:         Encryption
         assignment:     "Homework: git and GitHub"
         items:
-          - name:       Slides Encruption
+          - name:       Slides Encryption
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Encryption.pdf
 
 - name:     "Security"
@@ -203,13 +203,13 @@
           - name:       "Program #4 Due"
           
       - date:           Mon 05/01
-        topic:          Review
+        topics:          Review
 
 - name:     "Final Exam"
   days:
       - date:           Mon 05/08
-        topic:          "Final Exam: 7:00pm class (001) 8:15PM - 10:45PM"
+        topics:          "Final Exam: 7:00pm class (001) 8:15PM - 10:45PM"
       - date:           Mon 05/10
-        topic:          "Final Exam: 5:30pm class (003) 5:30PM - 8:00PM"
+        topics:          "Final Exam: 5:30pm class (003) 5:30PM - 8:00PM"
 
      
