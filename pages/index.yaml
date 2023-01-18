@@ -243,6 +243,8 @@ body:       |
                       {% set assignment_label = 'primary' %}
                     {% elif assignment_id.startswith('homework') %}
                       {% set assignment_label = 'caution' %}
+                    {% elif assignment_id.startswith('quiz') %}
+                      {% set assignment_label = 'danger' %}
                     {% else %}
                       {% set assignment_label = 'success' %}
                     {% end %}
