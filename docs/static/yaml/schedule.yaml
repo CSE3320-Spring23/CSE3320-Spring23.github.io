@@ -9,7 +9,7 @@
   days:
       - date:           Mon 01/23
         topics:         OS Concepts
-        assignment:     Reading git and GitHub
+        assignment:     "Homework: git and GitHub"
         items:
           - name:       Slides 01
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%201.pdf
@@ -40,6 +40,7 @@
 
       - date:           Wed 02/08
         topics:         Process Scheduling
+        assignment:     "Program #1 Assigned"
         items:
           - name:       Slides 08 Part 1
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%208%20Part%201.pdf
@@ -68,23 +69,32 @@
         items:
           - name:       Exam 01
 
+- name:     "Memory"
+
 - name:     "Memory Management"
-
-- name:     "Python Scripting"
   days:
-      - date:           Mon 02/20
-        topics:         Functions, Doctests, Lists
-        assignment:     Reading 05
+      - date:           Mon 02/22
+        topics:         Binding, Heap, Overlays, Heap Allocation
+        items:
+          - name:       Slides Binding
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Binding.pdf
+          - name:       Slides 10
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%209.pdf
 
-      - date:           Wed 02/22
-        topics:         Strings, Dictionaries
-
+      - date:           Wed 02/27
+        topics:          Heap, Overlays, Heap Allocation
+        assignment:     "Program #1 Due"
+        assignment:     "Program #2 Assigned"
+        assignment:     "Quiz #1"
+        items:
+          - name:       Slides 10
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%209.pdf
 
 - name:     "Data Processing"
   days:
       - date:           Mon 02/27
         topics:         CSV
-        assignment:     Reading 06
+        assignment:     Program #1 Due
 
       - date:           Wed 03/01
         topics:         JSON
