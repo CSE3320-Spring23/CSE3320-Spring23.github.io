@@ -24,7 +24,7 @@
           - name:       Slides 02
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%202.pdf
             
--name:       Processes
+- name:       Processes
    days:
       - date:           Wed 02/01
         topics:         Virtualization
