@@ -24,11 +24,4 @@
           - name:       Slides 02
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%202.pdf
             
-- name:       Processes
-  days:
-      - date:           Wed 02/01
-        topics:         Virtualization
-        assignment:     git and GitHub Due
-        items:
-          - name:       Slides 07
-            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter07.pdf
+- name:     "Unit 01: Bourne Shell"
