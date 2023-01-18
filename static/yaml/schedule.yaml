@@ -9,7 +9,7 @@
   days:
       - date:           Mon 01/23
         topics:         OS Concepts
-        assignment:     Reading git and GitHub
+        assignment:     Homework: git and GitHub
         items:
           - name:       Slides 01
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%201.pdf
@@ -40,6 +40,7 @@
 
       - date:           Wed 02/08
         topics:         Process Scheduling
+        assignment:     Program #1 Assigned
         items:
           - name:       Slides 08 Part 1
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%208%20Part%201.pdf
@@ -84,7 +85,7 @@
   days:
       - date:           Mon 02/27
         topics:         CSV
-        assignment:     Reading 06
+        assignment:     Program #1 Due
 
       - date:           Wed 03/01
         topics:         JSON
