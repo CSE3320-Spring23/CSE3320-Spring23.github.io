@@ -384,7 +384,7 @@ body:       |
       <img src="static/img/tlcl.jpg" height="300">
       <div class="caption">
           <h4>The Linux Command Line</h4>
-          <p>William Shotts <a href="http://linuxcommand.org/tlcl.php" class="label label-primary pull-right">Online Version</a>
+          <p>William Shotts<a href="http://linuxcommand.org/tlcl.php" class="label label-primary pull-right">Online Version</a>
           </p>
       </div>
     </div>
