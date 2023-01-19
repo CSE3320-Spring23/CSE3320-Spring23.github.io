@@ -401,7 +401,7 @@ body:       |
     </div>
     <div class="col-md-4" markdown="1">
     <div class="thumbnail">
-      <img src="static/img/ostep.jpg" height="300">
+      <img src="static/img/APUE.jpg" height="300">
       <div class="caption">
           <h4>Advanced Programming in the Unix Environment</h4>
           <p>W. R. Stephens<a href="http://www.kohala.com/start/">Author's Web Page</a>
