@@ -21,9 +21,9 @@ body:       |
     <script src="https://kit.fontawesome.com/4807499673.js" crossorigin="anonymous"></script>
     <div class="row" markdown="1">
 
-    **SE 3320** is a core [Computer Science and Engineering] course at the
-    [University of Texas at Arlington] that explores the fundamentals of computing
-    systems.  This course introduces many different aspects of modern operating systems. 
+    **CSE 3320** is a core [Computer Science and Engineering] course at the
+    [University of Texas at Arlington] that explores the fundamentals of computer
+    operating systems.  This course introduces many different aspects of modern operating systems. 
     Topics may include process structure and synchronization, interprocess communication, 
     concurrency and parallelism with threads, virtual memory, resource allocation, file 
     systems, security, and distributed systems.
@@ -394,7 +394,7 @@ body:       |
       <img src="static/img/tlcl.jpg" height="300">
       <div class="caption">
           <h4>The Linux Command Line</h4>
-          <p>William Shotts <a href="http://linuxcommand.org/tlcl.php" class="label label-primary pull-right">Online Version</a>
+          <p>William Shotts<a href="http://linuxcommand.org/tlcl.php" class="label label-primary pull-right">Online Version</a>
           </p>
       </div>
     </div>
@@ -405,6 +405,16 @@ body:       |
       <div class="caption">
           <h4>Operating Systems: Three Easy Pieces</h4>
           <p>Remzi Arpaci-Dusseau, Andrea Arpaci-Dusseau <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/" class="label label-primary pull-right">Online Version</a>
+          </p>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-4" markdown="1">
+    <div class="thumbnail">
+      <img src="static/img/APUE.jpg" height="300">
+      <div class="caption">
+          <h4>Advanced Programming in the Unix Environment</h4>
+          <p>W. R. Stephens<a href="http://www.kohala.com/start/">Author's Web Page</a>
           </p>
       </div>
     </div>
