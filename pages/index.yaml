@@ -21,7 +21,7 @@ body:       |
     <script src="https://kit.fontawesome.com/4807499673.js" crossorigin="anonymous"></script>
     <div class="row" markdown="1">
 
-    **SE 3320** is a core [Computer Science and Engineering] course at the
+    **CSE 3320** is a core [Computer Science and Engineering] course at the
     [University of Texas at Arlington] that explores the fundamentals of computing
     systems.  This course introduces many different aspects of modern operating systems. 
     Topics may include process structure and synchronization, interprocess communication, 
