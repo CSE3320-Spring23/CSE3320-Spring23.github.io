@@ -22,8 +22,8 @@ body:       |
     <div class="row" markdown="1">
 
     **CSE 3320** is a core [Computer Science and Engineering] course at the
-    [University of Texas at Arlington] that explores the fundamentals of computing
-    systems.  This course introduces many different aspects of modern operating systems. 
+    [University of Texas at Arlington] that explores the fundamentals of computer
+    operating systems.  This course introduces many different aspects of modern operating systems. 
     Topics may include process structure and synchronization, interprocess communication, 
     concurrency and parallelism with threads, virtual memory, resource allocation, file 
     systems, security, and distributed systems.
