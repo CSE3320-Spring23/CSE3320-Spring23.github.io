@@ -39,7 +39,7 @@ body:   |
             allow for **passwordless** access.
 
         <div class="alert alert-success" markdown="1">
-        ### <i class="fa fa-lock"></i> Setup SSH Keys
+        #### <i class="fa fa-lock"></i> Setup SSH Keys
 
         <p>Here is a quick tutorial on how to [Setup SSH Keys] on a Linux
         or MacOS machine (if you have not already):</p>
@@ -47,12 +47,14 @@ body:   |
                 :::bash
                 # Accept the defaults, don't make a password if you want to go passwordless
                 $ ssh-keygen
+                
         2. Copy the contents of `~/.ssh/id_rsa.pub` to the SSH Keys section of
         your [GitHub] settings page:
             > [https://github.com/settings/keys](https://github.com/settings/keys)
                 :::bash
                 # Copy and paste the contents of this file into GitHub
                 $ cat ~/.ssh/id_rsa.pub
+                
         3. Edit/create `~/.ssh/config` to use this key with [GitHub]:
                 :::bash
                 # Add the following to your config (replace $USERNAME with your username)
@@ -62,6 +64,7 @@ body:   |
                         Hostname github.com
                         PreferredAuthentications publickey
                         IdentityFile /home/$USERNAME/.ssh/id_rsa
+                        
         Once this is done, you should be able to do [git] operations without a password.
         You will need to accept the host key the first time by typing in "yes".
         </div>
@@ -71,4 +74,5 @@ body:   |
         Any time you see references to `vim` in example commands, remember that
         you can use any text editor such as `nano` or `emacs` instead.
         </div>
- 
+        
+     [Setup SSH Keys]: https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/about-ssh
