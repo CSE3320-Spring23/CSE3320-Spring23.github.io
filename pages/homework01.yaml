@@ -11,7 +11,7 @@ body:   |
   This assignment we will explore how to use some of the features of
   the git and GitHub. 
 
-  ##Task 1: Setup GitHub
+  ##Preparation: Setup GitHub
     All of your work in this class will be submitted to [GitHub] using [git].
     Your first task is to setup your [GitHub] **assignments** repository by doing
     the following:
@@ -37,8 +37,10 @@ body:   |
           use the **private key** to authenticate to the server.
             This is the **recommended** way to setup your repository as it will
             allow for **passwordless** access.
+
         <div class="alert alert-success" markdown="1">
-        #### <i class="fa fa-lock"></i> Setup SSH Keys
+        ### <i class="fa fa-lock"></i> Setup SSH Keys
+
         <p>Here is a quick tutorial on how to [Setup SSH Keys] on a Linux
         or MacOS machine (if you have not already):</p>
         1. Generate SSH keys if you don't have them yet:
@@ -63,6 +65,7 @@ body:   |
         Once this is done, you should be able to do [git] operations without a password.
         You will need to accept the host key the first time by typing in "yes".
         </div>
+
         <div class="alert alert-info" markdown="1">
         #### <i class="fa fa-code"></i> Text Editor
         Any time you see references to `vim` in example commands, remember that
