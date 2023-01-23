@@ -9,7 +9,7 @@
   days:
       - date:           Mon 01/23
         topics:         OS Concepts
-        assignment:     "Homework: git and GitHub Assigned"
+        assignment:     "Homework01_git_and_GitHub"
         items:
           - name:       Slides 01
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%201.pdf

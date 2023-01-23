@@ -189,7 +189,7 @@ body:       |
                     <th class="text-center">Unit</th>
                     <th class="text-center" style="width: 100px;">Date</th>
                     <th class="text-center">Topics</th>
-                    <th class="text-center" style="width: 125px;">Assignments</th>
+                    <th class="text-center" style="width: 125px;">Assigned</th>
                 </tr>
             </thead>
             <tbody>
