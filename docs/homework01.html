@@ -79,55 +79,53 @@ the git and GitHub. </p>
   allow for <strong>passwordless</strong> access.</p>
 </li>
 </ol>
-<p><div class="alert alert-success" markdown="1">
-  ### <i class="fa fa-lock"></i> Setup SSH Keys</p>
-<p><p>Here is a quick tutorial on how to <a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/about-ssh">Setup SSH Keys</a> on a Linux
-  or MacOS machine (if you have not already):</p></p>
-<ol>
-<li>
-<p>Generate SSH keys if you don't have them yet:
-          <code>console
-          # Accept the defaults, don't make a password if you want to go passwordless
-          $ ssh-keygen</code></p>
-</li>
-<li>
-<p>Copy the contents of <code>~/.ssh/id_rsa.pub</code> to the SSH Keys section of
-  your [GitHub] settings page:</p>
-<blockquote>
-<p><a href="https://github.com/settings/keys">https://github.com/settings/keys</a></p>
-</blockquote>
-<div class="codehilite" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><code>  ```console
-  # Copy and paste the contents of this file into GitHub
-  $ cat ~/.ssh/id_rsa.pub
-  ```
-</code></pre></div>
-
-</li>
-<li>
-<p>Edit/create <code>~/.ssh/config</code> to use this key with [GitHub]:</p>
-<div class="codehilite" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><code>  ```console
-  <span style="color: #3D7B7B; font-style: italic"># Add the following to your config (replace $USERNAME with your username)</span>
-  $ vim ~/.ssh<span style="color: #666666">/</span><span style="color: #008000">config</span>
-  Host github.com
-          User git
-          Hostname github.com
-          PreferredAuthentications publickey
-          IdentityFile /home/<span style="color: #19177C">$USERNAME</span>/.ssh<span style="color: #666666">/</span>id_rsa
-  ```
-</code></pre></div>
-
 </li>
 </ol>
-<p>Once this is done, you should be able to do [git] operations without a password.
-  You will need to accept the host key the first time by typing in "yes".
-  </div></p>
-<p><div class="alert alert-info" markdown="1">
-  #### <i class="fa fa-code"></i> Text Editor</p>
-<p>Any time you see references to <code>vim</code> in example commands, remember that
-  you can use any text editor such as <code>nano</code> or <code>emacs</code> instead.</p>
-</div>
-</li>
-</ol>
+<div class="alert alert-success" markdown="block">
+  ### &lt;i class="fa fa-lock"&gt;&lt;/i&gt; Setup SSH Keys
+
+      &lt;p&gt;Here is a quick tutorial on how to [Setup SSH Keys] on a Linux
+      or MacOS machine (if you have not already):&lt;/p&gt;
+
+      1. Generate SSH keys if you don't have them yet:
+              ```console
+              # Accept the defaults, don't make a password if you want to go passwordless
+              $ ssh-keygen
+              ```
+
+      2. Copy the contents of `~/.ssh/id_rsa.pub` to the SSH Keys section of
+      your [GitHub] settings page:
+
+          &gt; [https://github.com/settings/keys](https://github.com/settings/keys)
+
+              ```console
+              # Copy and paste the contents of this file into GitHub
+              $ cat ~/.ssh/id_rsa.pub
+              ```
+
+      3. Edit/create `~/.ssh/config` to use this key with [GitHub]:
+
+              ```console
+              # Add the following to your config (replace $USERNAME with your username)
+              $ vim ~/.ssh/config
+              Host github.com
+                      User git
+                      Hostname github.com
+                      PreferredAuthentications publickey
+                      IdentityFile /home/$USERNAME/.ssh/id_rsa
+              ```
+
+      Once this is done, you should be able to do [git] operations without a password.
+      You will need to accept the host key the first time by typing in "yes".
+      </div>
+<div class="codehilite" style="background: #f8f8f8"><pre style="line-height: 125%;"><span></span><code><span style="color: #bbbbbb">  </span><span style="color: #666666">&lt;</span><span style="color: #008000; font-weight: bold">div</span><span style="color: #bbbbbb"> </span>class<span style="color: #666666">=</span><span style="color: #BA2121">&quot;alert alert-info&quot;</span><span style="color: #bbbbbb"> </span>markdown<span style="color: #666666">=</span><span style="color: #BA2121">&quot;1&quot;</span><span style="color: #666666">&gt;</span><span style="color: #bbbbbb"></span>
+<span style="color: #bbbbbb">  </span><span style="color: #3D7B7B; font-style: italic">#### &lt;i class=&quot;fa fa-code&quot;&gt;&lt;/i&gt; Text Editor</span><span style="color: #bbbbbb"></span>
+
+<span style="color: #bbbbbb">  </span><span style="color: #008000; font-weight: bold">Any</span><span style="color: #bbbbbb"> </span><span style="color: #B00040">time</span><span style="color: #bbbbbb"> </span>you<span style="color: #bbbbbb"> </span>see<span style="color: #bbbbbb"> </span><span style="color: #008000; font-weight: bold">references</span><span style="color: #bbbbbb"> </span><span style="color: #008000; font-weight: bold">to</span><span style="color: #bbbbbb"> </span>`vim`<span style="color: #bbbbbb"> </span><span style="color: #008000; font-weight: bold">in</span><span style="color: #bbbbbb"> </span>example<span style="color: #bbbbbb"> </span>commands,<span style="color: #bbbbbb"> </span>remember<span style="color: #bbbbbb"> </span>that<span style="color: #bbbbbb"></span>
+<span style="color: #bbbbbb">  </span>you<span style="color: #bbbbbb"> </span>can<span style="color: #bbbbbb"> </span><span style="color: #008000; font-weight: bold">use</span><span style="color: #bbbbbb"> </span><span style="color: #008000; font-weight: bold">any</span><span style="color: #bbbbbb"> </span><span style="color: #B00040">text</span><span style="color: #bbbbbb"> </span>editor<span style="color: #bbbbbb"> </span>such<span style="color: #bbbbbb"> </span><span style="color: #008000; font-weight: bold">as</span><span style="color: #bbbbbb"> </span>`nano`<span style="color: #bbbbbb"> </span><span style="color: #008000; font-weight: bold">or</span><span style="color: #bbbbbb"> </span>`emacs`<span style="color: #bbbbbb"> </span>instead.<span style="color: #bbbbbb"></span>
+
+<span style="color: #bbbbbb">  </span><span style="color: #666666">&lt;/</span><span style="color: #008000; font-weight: bold">div</span><span style="color: #666666">&gt;</span><span style="color: #bbbbbb"></span>
+</code></pre></div>
 
 
 	    <div class="row">
