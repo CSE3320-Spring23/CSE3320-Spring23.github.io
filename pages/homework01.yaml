@@ -47,8 +47,8 @@ body:   |
             This is the **recommended** way to setup your repository as it will
             allow for **passwordless** access.
 
-        <div class="alert alert-success" markdown="1">
-        ### <i class="fa fa-lock"></i> Setup SSH Keys
+    <div class="alert alert-success" markdown="1">
+    ### <i class="fa fa-lock"></i> Setup SSH Keys
 
         <p>Here is a quick tutorial on how to [Setup SSH Keys] on a Linux
         or MacOS machine (if you have not already):</p>
