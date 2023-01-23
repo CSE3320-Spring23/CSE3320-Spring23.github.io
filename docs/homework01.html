@@ -72,32 +72,32 @@ the git and GitHub. </p>
       allow for <strong>passwordless</strong> access.</li>
 </ol>
 <p><div class="alert alert-success" markdown="1">
-  #### <i class="fa fa-lock"></i> Setup SSH Keys</p>
+  ### <i class="fa fa-lock"></i> Setup SSH Keys</p>
 <p><p>Here is a quick tutorial on how to <a href="https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/about-ssh">Setup SSH Keys</a> on a Linux
   or MacOS machine (if you have not already):</p>
   1. Generate SSH keys if you don't have them yet:
-          :::bash
+          <code>console
           # Accept the defaults, don't make a password if you want to go passwordless
-          $ ssh-keygen</p>
+          $ ssh-keygen</code></p>
 <ol>
 <li>
 <p>Copy the contents of <code>~/.ssh/id_rsa.pub</code> to the SSH Keys section of
   your [GitHub] settings page:
       &gt; <a href="https://github.com/settings/keys">https://github.com/settings/keys</a>
-          :::bash
+          <code>console
           # Copy and paste the contents of this file into GitHub
-          $ cat ~/.ssh/id_rsa.pub</p>
+          $ cat ~/.ssh/id_rsa.pub</code></p>
 </li>
 <li>
 <p>Edit/create <code>~/.ssh/config</code> to use this key with [GitHub]:
-          :::bash
+          <code>console
           # Add the following to your config (replace $USERNAME with your username)
           $ vim ~/.ssh/config
           Host github.com
                   User git
                   Hostname github.com
                   PreferredAuthentications publickey
-                  IdentityFile /home/$USERNAME/.ssh/id_rsa</p>
+                  IdentityFile /home/$USERNAME/.ssh/id_rsa</code></p>
 </li>
 </ol>
 <p>Once this is done, you should be able to do [git] operations without a password.
