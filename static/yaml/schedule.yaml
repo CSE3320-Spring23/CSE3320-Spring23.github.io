@@ -84,7 +84,6 @@
         items:
           - name:       Slides 09
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%209.pdf
-          - name:       "Quiz #1"
 
 
 - name:     "Memory"
@@ -100,6 +99,7 @@
           - name:       Slides 10
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2010.pdf
           - name:       "Program #1 Due"
+          - name:       "Quiz #1"
         assignment:     "Program #2 Assigned"
 
       - date:           Mon 03/06
