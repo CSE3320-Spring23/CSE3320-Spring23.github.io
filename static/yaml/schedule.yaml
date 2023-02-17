@@ -69,11 +69,32 @@
         items:
           - name:       Exam 01
 
+- name:     "Threading"
+  days:
+      - date:           Wed 02/23
+        topics:         Threads, Race Conditions, Deadlocks
+        items:
+          - name:       Slides 08 Part 2
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%208%20Part%202.pdf
+          - name:       Slides 09
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%209.pdf
+
+      - date:           Mon 03/01
+        topics:         Threads, Race Conditions, Deadlocks
+        items:
+          - name:       Slides 09
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%209.pdf
+          - name:       "Quiz #1"
+          - name:       "Program #1 Due"
+        assignment:     "Program #2 Assigned"
+
+
 - name:     "Memory"
+
 
 - name:     "Memory Management"
   days:
-      - date:           Wed 02/22
+      - date:           Wed 03/03
         topics:         Binding, Heap, Overlays, Heap Allocation
         items:
           - name:       Slides Binding
@@ -83,10 +104,6 @@
 
       - date:           Mon 02/27
         topics:          Heap, Overlays, Heap Allocation
-        assignment:     "Program #2 Assigned"
-        items:
-          - name:       "Quiz #1"
-          - name:       "Program #1 Due"
           
 
 - name:     "Memory Management"
