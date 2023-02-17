@@ -85,8 +85,6 @@
           - name:       Slides 09
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%209.pdf
           - name:       "Quiz #1"
-          - name:       "Program #1 Due"
-        assignment:     "Program #2 Assigned"
 
 
 - name:     "Memory"
@@ -101,6 +99,8 @@
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Binding.pdf
           - name:       Slides 10
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2010.pdf
+          - name:       "Program #1 Due"
+        assignment:     "Program #2 Assigned"
 
       - date:           Mon 03/06
         topics:          Heap, Overlays, Heap Allocation
@@ -142,18 +142,18 @@
           - name:       Slides 12
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2012.pdf
 
-      - date:           Wed 03/22
+      - date:           Wed 03/29
         assignment:     "Program #3 Assigned"
         items:
           - name:       "Quiz #2"
           - name:       "Program #2 Due"
           
-      - date:           Mon 03/27
+      - date:           Mon 04/03
         items:
           - name:       Exam 02
 - name:     "File System Examples"
   days:
-      - date:           Wed 03/29
+      - date:           Wed 04/05
         topics:         FAT-32, ext-x, ISO9660
         items:
           - name:       Slides 13
@@ -161,7 +161,7 @@
             
 - name:     "File System Performance"
   days:
-      - date:           Mon 04/03
+      - date:           Mon 04/10
         topics:         Disk Scheduling, Backups
         items:
           - name:       Slides 14
@@ -171,13 +171,13 @@
 
 - name:     "I/0"
   days:
-      - date:           Wed 04/05
+      - date:           Wed 04/12
         topics:         I/O, Device Drivers
         items:
           - name:       Slides 15
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2015.pdf
             
-      - date:           Mon 04/10
+      - date:           Mon 04/17
         assignment:     "Program #4 Assigned"
         items:
           - name:       "Quiz #3"
@@ -185,7 +185,7 @@
         
 - name:     "Encryption"
   days:
-      - date:           Wed 04/12
+      - date:           Wed 04/19
         topics:         Encryption
         assignment:     "Homework: git and GitHub"
         items:
@@ -194,7 +194,7 @@
 
 - name:     "Security"
   days:
-      - date:           Mon 04/17
+      - date:           Mon 04/24
         topics:         Cybersecurity, Authentication
         items:
           - name:       Slides 15
