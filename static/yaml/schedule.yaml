@@ -99,8 +99,8 @@
           - name:       Slides 10
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2010.pdf
           - name:       "Program #1 Due"
-        assignment:     "Program #2 Assigned"
           - name:       "Quiz #1"
+        assignment:     "Program #2 Assigned"
 
       - date:           Mon 03/06
         topics:          Heap, Overlays, Heap Allocation
