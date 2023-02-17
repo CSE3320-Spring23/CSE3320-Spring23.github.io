@@ -187,7 +187,7 @@
   days:
       - date:           Wed 04/19
         topics:         Encryption
-        assignment:     "Homework: git and GitHub"
+        assignment:     "Homework: Encryption"
         items:
           - name:       Slides Encryption
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Encryption.pdf
