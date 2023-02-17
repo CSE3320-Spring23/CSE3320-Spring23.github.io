@@ -40,7 +40,7 @@
 
       - date:           Wed 02/08
         topics:         Process Scheduling
-        assignment:     "Program #1 Assigned"
+        assignment:     "Program 1 Assigned"
         items:
           - name:       Slides 08 Part 1
             link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%208%20Part%201.pdf
