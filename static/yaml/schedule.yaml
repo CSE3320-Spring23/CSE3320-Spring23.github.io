@@ -172,29 +172,22 @@
 - name:     "I/0"
   days:
       - date:           Wed 04/12
-        topics:         I/O, Device Drivers
+        topics:         Encryption 
         items:
-          - name:       Slides 15
-            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2015.pdf
+          - name:       Slides Encryption 
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Encryption.pdf 
             
       - date:           Mon 04/17
+        topics:         Encryption
+        assignment:     "Homework: Encryption"
         assignment:     "Program #4 Assigned"
         items:
           - name:       "Quiz #3"
           - name:       "Program #3 Due"
         
-- name:     "Encryption"
-  days:
-      - date:           Wed 04/19
-        topics:         Encryption
-        assignment:     "Homework: Encryption"
-        items:
-          - name:       Slides Encryption
-            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Encryption.pdf
-
 - name:     "Security"
   days:
-      - date:           Mon 04/24
+      - date:           Mon 04/17
         topics:         Cybersecurity, Authentication
         items:
           - name:       Slides 15
