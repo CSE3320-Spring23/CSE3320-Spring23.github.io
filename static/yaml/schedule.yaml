@@ -171,10 +171,10 @@
 - name:     "I/0"
   days:
       - date:           Wed 04/12
-        topics:         Encryption 
+        topics:         Networks 
         items:
-          - name:       Slides Encryption 
-            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Encryption.pdf 
+          - name:       Slides Networks 
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2015.pdf 
             
       - date:           Mon 04/17
         topics:         Encryption
