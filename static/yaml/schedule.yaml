@@ -200,14 +200,13 @@
 - name:     "Review"
   days:
       - date:           Wed 04/26
-        topic:          Review
-        assignment:     "Program #4 Assigned"
+        topics          Review
+          
+      - date:           Mon 05/01
+        topics:         Review
         items:
           - name:       "Quiz #4"
           - name:       "Program #4 Due"
-          
-      - date:           Mon 05/01
-        topics:          Review
 
 - name:     "Final Exam"
   days:
