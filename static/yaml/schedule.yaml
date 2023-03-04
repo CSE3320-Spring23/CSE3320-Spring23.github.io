@@ -171,18 +171,18 @@
 - name:     "I/0"
   days:
       - date:           Wed 04/12
-        topics:         Networks 
-        items:
-          - name:       Slides Networks 
-            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2015.pdf 
-            
-      - date:           Mon 04/17
         topics:         Encryption
         assignment:     "Homework: Encryption"
         assignment:     "Program #4 Assigned"
         items:
           - name:       "Quiz #3"
           - name:       "Program #3 Due"
+
+      - date:           Mon 04/17
+        topics:         Networks 
+        items:
+          - name:       Slides Networks 
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2015.pdf 
         
 - name:     "Security"
   days:
