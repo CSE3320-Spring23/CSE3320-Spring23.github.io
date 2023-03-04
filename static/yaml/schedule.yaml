@@ -200,7 +200,7 @@
 - name:     "Review"
   days:
       - date:           Wed 04/26
-        topics          Review
+        topics:         Review
           
       - date:           Mon 05/01
         topics:         Review
