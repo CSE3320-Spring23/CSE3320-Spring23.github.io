@@ -290,7 +290,7 @@ body:       |
                 </tr>
                 <tr>
                     <td><span class="label label-danger">Exams</span> Exam 1, Exam 2, and Final Exam</td>
-                    <td class="text-center">10%, 10%, 15%</td>
+                    <td class="text-center">10%, 10%, 20%</td>
                 </tr>
             </tbody>
         </table>
