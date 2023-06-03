@@ -2,16 +2,219 @@
   days:
       - date:           Wed 01/18
         topics:         Syllabus
-        items:
-          - name:       Slides 00
-            link:       
-          - name:       Slides 01
-            link:       
+        
+- name:     "Overview"        
 
-      - date:           Fri 01/20
-        topics:         Git
-        assignment:     Reading 00
+- name:     "Operating Systems Overview"
+  days:
+      - date:           Mon 01/23
+        topics:         OS Concepts
+        assignment:     "Homework 01"
+        items:
+          - name:       Slides 01
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%201.pdf
+
+      - date:           Wed 01/25
+        topics:         OS Components, Architecture, Kernels
         items:
           - name:       Slides 02
-            link:       
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%202.pdf
 
+- name:     "Processes"
+
+- name:     "Virtualization"
+  days:
+      - date:           Mon 01/30
+        topics:         Virtualizations, Containers, Hypervisors, Cloud
+        items:
+          - name:       Slides 07
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter07.pdf
+
+- name:     "Processes"
+  days:
+      - date:           Mon 02/06
+        topics:         Process Creation, IPC
+        items:
+          - name:       Slides 08 Part 1
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%208%20Part%201.pdf
+
+      - date:           Wed 02/08
+        topics:         Process Scheduling
+        assignment:     "Program 1 Assigned"
+        items:
+          - name:       Slides 08 Part 1
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%208%20Part%201.pdf
+          - name:       Slides 08 Part 2
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%208%20Part%202.pdf
+
+- name:     "Threading"
+  days:
+      - date:           Mon 02/13
+        topics:         Threads, Race Conditions, Deadlocks
+        items:
+          - name:       Slides 08 Part 2
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%208%20Part%202.pdf
+          - name:       Slides 09
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%209.pdf
+
+      - date:           Wed 02/15
+        topics:         Threads, Race Conditions, Deadlocks
+        items:
+          - name:       Slides 09
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%209.pdf
+            
+- name:     "Exam 01"
+  days:
+      - date:           Mon 02/20
+        items:
+          - name:       Exam 01
+
+- name:     "Threading"
+  days:
+      - date:           Wed 02/22
+        topics:         Threads, Race Conditions, Deadlocks
+        items:
+          - name:       Slides 08 Part 2
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%208%20Part%202.pdf
+          - name:       Slides 09
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%209.pdf
+
+      - date:           Mon 02/27
+        topics:         Threads, Race Conditions, Deadlocks
+        items:
+          - name:       Slides 09
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%209.pdf
+
+
+- name:     "Memory"
+
+
+- name:     "Memory Management"
+  days:
+      - date:           Wed 03/01
+        topics:         Binding, Heap, Overlays, Heap Allocation
+        items:
+          - name:       Slides Binding
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Binding.pdf
+          - name:       Slides 10
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2010.pdf
+          - name:       "Program #1 Due"
+          - name:       "Quiz #1"
+        assignment:     "Program #2 Assigned"
+
+      - date:           Mon 03/06
+        topics:         Binding, Heap, Overlays, Heap Allocation
+        items:
+          - name:       Slides Binding
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Binding.pdf
+          - name:       Slides 10
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2010.pdf
+          
+
+- name:     "Memory Management"
+  days:
+      - date:           Wed 03/08
+        topics:         Paging, EAT
+        items:
+          - name:       Slides 11
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2011.pdf
+
+- name:     "Spring Break"
+
+- name:     "Demand Paging"
+  days:
+      - date:           Mon 03/20
+        topics:         Paging, EAT
+        items:
+          - name:       Slides 11
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2011.pdf
+
+- name:     "File Systems Fundamentals"
+  days:
+
+      - date:           Wed 03/22
+        topics:         File Systems, Disk Allocation, Directories
+        items:
+          - name:       Slides 12
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2012.pdf
+
+      - date:           Mon 03/27
+        topics:         FAT-32, ext-x, ISO9660
+        items:
+          - name:       Slides 13
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2013.pdf
+
+      - date:           Wed 03/29
+        assignment:     "Program #3 Assigned"
+        items:
+          - name:       "Quiz #2"
+          - name:       "Program #2 Due"
+          
+      - date:           Mon 04/03
+        items:
+          - name:       Exam 02
+
+- name:     "File System Examples"
+  days:
+      - date:           Wed 04/05
+            
+- name:     "File System Performance"
+  days:
+      - date:           Mon 04/10
+        topics:         Disk Scheduling, Backups
+        items:
+          - name:       Slides 14
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2014.pdf
+            
+- name:     "I/O, Networks and Security"
+
+- name:     "I/0"
+  days:
+      - date:           Wed 04/12
+        topics:         Encryption
+        assignment:     "Homework: Encryption"
+        assignment:     "Program #4 Assigned"
+        items:
+          - name:       "Quiz #3"
+          - name:       "Program #3 Due"
+
+      - date:           Mon 04/17
+        topics:         Networks 
+        items:
+          - name:       Slides Networks 
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2015.pdf 
+        
+- name:     "Security"
+  days:
+      - date:           Wed 04/19
+        topics:         Cybersecurity, Authentication
+        items:
+          - name:       Slides 15
+            link:       https://github.com/CSE3320-Spring23/Lecture-Slides/blob/main/Chapter%2016.pdf
+
+- name:     "Resumes"
+  days:
+      - date:           Mon 04/24
+        topics:         Resumes and Interviews
+
+- name:     "Review"
+  days:
+      - date:           Wed 04/26
+        topics:         Review
+          
+      - date:           Mon 05/01
+        topics:         Review
+        items:
+          - name:       "Quiz #4"
+          - name:       "Program #4 Due"
+
+- name:     "Final Exam"
+  days:
+      - date:           Mon 05/08
+        items:          
+          - name: "Final Exam: 7:00pm class (001) 8:15PM - 10:45PM"
+      - date:           Wed 05/10
+        items:          
+          - name: "Final Exam: 5:30pm class (003) 5:30PM - 8:00PM"
+
+     

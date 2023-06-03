@@ -10,15 +10,15 @@ jobs:
   build:
     runs-on: ubuntu-22.04
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
       with:
         fetch-depth: 0
 
     - name: Install deps
-      run: sudo apt-get -y update && sudo apt-get -y install python3-tornado python3-yaml python3-markdown python3-dateutil
+      run: sudo apt-get -y update && sudo apt-get -y install lftp python3-tornado python3-yaml python3-markdown python3-dateutil
 
     - name: Build site
-      run: make clean && make build
+      run: make clean
 
     - name: Deploy back to gh
       env:
@@ -28,6 +28,8 @@ jobs:
         git config --local user.name "GitHub Actions"
         git config --local user.email "<>"
         git checkout gh-pages
+        git merge main
+        make build
         git add docs/
         git commit -m 'GitHub Actions: build site' || echo 'nothing to commit'
         git push origin gh-pages || echo 'nothing to push'

@@ -22,8 +22,8 @@ body:       |
     <div class="row" markdown="1">
 
     **CSE 3320** is a core [Computer Science and Engineering] course at the
-    [University of Texas at Arlington] that explores the fundamentals of computing
-    systems.  This course introduces many different aspects of modern operating systems. 
+    [University of Texas at Arlington] that explores the fundamentals of computer
+    operating systems.  This course introduces many different aspects of modern operating systems. 
     Topics may include process structure and synchronization, interprocess communication, 
     concurrency and parallelism with threads, virtual memory, resource allocation, file 
     systems, security, and distributed systems.
@@ -60,6 +60,10 @@ body:       |
 
             <dt><i class="fa fa-home"></i> Location</dt>
             <dd>404 Woolf Hall</dd>
+            
+            <dt><i class="fa fa-file-text"></i> Course Syllabus</dt>
+            <dd><a href="https://github.com/CSE3320-Spring23/Course-Syllabus/blob/main/PDF/Section_001_Spring_2023.pdf">Section 001: 7:00PM - 8:20PM</a></dd>
+            <dd><a href="https://github.com/CSE3320-Spring23/Course-Syllabus/blob/main/PDF/Section_003_Spring_2023.pdf">Section 003: 5:30PM - 6:50PM</a></dd>
 
             <dt><i class="fa fa-video-camera"></i> Zoom Meeting</dt>
             <dd><a href="https://zoom.us/s/2685719880">268 571 9880</a></dd>
@@ -185,7 +189,7 @@ body:       |
                     <th class="text-center">Unit</th>
                     <th class="text-center" style="width: 100px;">Date</th>
                     <th class="text-center">Topics</th>
-                    <th class="text-center" style="width: 125px;">Assignments</th>
+                    <th class="text-center" style="width: 125px;">Assigned</th>
                 </tr>
             </thead>
             <tbody>
@@ -217,8 +221,12 @@ body:       |
                       {% set item['label'] = 'warning' %}
                     {% elif item['name'].lower().startswith('panopto') %}
                       {% set item['label'] = 'info' %}
+                    {% elif item['name'].lower().startswith('quiz') %}
+                      {% set item['label'] = 'danger' %}
                     {% elif item['name'].lower().startswith('slides') %}
                       {% set item['label'] = 'success' %}
+                    {% elif item['name'].lower().startswith('program') %}
+                      {% set item['label'] = 'primary' %}
                     {% elif item['name'].lower().startswith('twitch') %}
                       {% set item['label'] = 'info' %}
                     {% else %}
@@ -235,10 +243,12 @@ body:       |
                     {% set assignment = day.get('assignment') %}
                     {% if assignment %}
                     {% set assignment_id = ''.join(assignment.lower().split()) %}
-                    {% if assignment_id.startswith('reading') %}
+                    {% if assignment_id.startswith('program') %}
                       {% set assignment_label = 'primary' %}
                     {% elif assignment_id.startswith('homework') %}
                       {% set assignment_label = 'caution' %}
+                    {% elif assignment_id.startswith('quiz') %}
+                      {% set assignment_label = 'danger' %}
                     {% else %}
                       {% set assignment_label = 'success' %}
                     {% end %}
@@ -271,8 +281,8 @@ body:       |
             </thead>
             <tbody>
                 <tr>
-                    <td><span class="label label-primary">Programs and Quizzes</span> Weekly reading assignments.</td>
-                    <td class="text-center">60%</td>
+                    <td><span class="label label-primary">Programs and Quizzes</span> Programming assignments and their related quizzes.</td>
+                    <td class="text-center">55%</td>
                 </tr>
                 <tr>
                     <td><span class="label label-caution">Homework</span> Non-program Homework</td>
@@ -280,7 +290,7 @@ body:       |
                 </tr>
                 <tr>
                     <td><span class="label label-danger">Exams</span> Exam 1, Exam 2, and Final Exam</td>
-                    <td class="text-center">10%, 10%, 15%</td>
+                    <td class="text-center">10%, 10%, 20%</td>
                 </tr>
             </tbody>
         </table>
@@ -377,14 +387,14 @@ body:       |
 
     <div class="row" markdown="1">
     <div class="col-md-12">
-    <h3>Textbooks</h3>
+    <h3>Books</h3>
     </div>
     <div class="col-md-4" markdown="1">
     <div class="thumbnail">
       <img src="static/img/tlcl.jpg" height="300">
       <div class="caption">
           <h4>The Linux Command Line</h4>
-          <p>William Shotts <a href="http://linuxcommand.org/tlcl.php" class="label label-primary pull-right">Online Version</a>
+          <p>William Shotts<a href="http://linuxcommand.org/tlcl.php" class="label label-primary pull-right">Online Version</a>
           </p>
       </div>
     </div>
@@ -395,6 +405,16 @@ body:       |
       <div class="caption">
           <h4>Operating Systems: Three Easy Pieces</h4>
           <p>Remzi Arpaci-Dusseau, Andrea Arpaci-Dusseau <a href="http://pages.cs.wisc.edu/~remzi/OSTEP/" class="label label-primary pull-right">Online Version</a>
+          </p>
+      </div>
+    </div>
+    </div>
+    <div class="col-md-4" markdown="1">
+    <div class="thumbnail">
+      <img src="static/img/APUE.jpg" height="300">
+      <div class="caption">
+          <h4>Advanced Programming in the Unix Environment</h4>
+          <p>W. R. Stephens<a href="http://www.kohala.com/start/">Author's Web Page</a>
           </p>
       </div>
     </div>

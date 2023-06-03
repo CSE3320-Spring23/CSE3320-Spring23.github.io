@@ -1,0 +1,81 @@
+title:      "Homework 01: git and GitHub Fundamentals"
+icon:       fa-book
+navigation:
+  - name: "Home"
+    link: "index.html"
+    icon: "fa-linux"
+internal:
+external:
+body:   |
+
+  This assignment we will explore how to use some of the features of
+  the git and GitHub. 
+
+  ##Preparation: Setup GitHub
+    All of your work in this class will be submitted to [GitHub] using [git].
+    Your first task is to setup your [GitHub] **assignments** repository by doing
+    the following:
+    1. **Sign-in** or create a [GitHub] account if you do not already have one.
+        > [https://github.com/join](https://github.com/join)
+        You may associate this account with either your UTA or personal
+        email address.  It is up to you.
+
+    2. Before you can **clone** your [git] repository, you will need to
+    determine which form of **authentication**, you wish to use with [GitHub].
+        <div class="alert alert-danger" markdown="1">
+        **Note**, that [GitHub] has recently shut down [password authentication].
+        </div>
+        To remotely access your repository from the command-line, you have two options:
+        1. [Setup a Personal Access Token]: With this method, [GitHub] will
+          generate an application specific passsword that you can use with
+          **HTTPS**.  As the **PAT** is a long string of characters, it is
+          recommended that you use it in conjunction with a **password
+          manager** or **keyring**.
+        2. [Setup SSH Keys]: With this method, you generate a local public and
+          private key pair on your computer and then upload the **public key**
+          to [GitHub].  When accessing [GitHub] from the command-line, you will
+          use the **private key** to authenticate to the server.
+            This is the **recommended** way to setup your repository as it will
+            allow for **passwordless** access.
+
+        <div class="alert alert-success" markdown="1">
+        ### <i class="fa fa-lock"></i> Setup SSH Keys
+
+        <p>Here is a quick tutorial on how to [Setup SSH Keys] on a Linux
+        or MacOS machine (if you have not already):</p>
+
+        1. Generate SSH keys if you don't have them yet:
+                :::bash
+                # Accept the defaults, don't make a password if you want to go passwordless
+                $ ssh-keygen
+
+        2. Copy the contents of `~/.ssh/id_rsa.pub` to the SSH Keys section of
+        your [GitHub] settings page:
+            > [https://github.com/settings/keys](https://github.com/settings/keys)
+                :::bash
+                # Copy and paste the contents of this file into GitHub
+                $ cat ~/.ssh/id_rsa.pub
+
+        3. Edit/create `~/.ssh/config` to use this key with [GitHub]:
+                :::bash
+                # Add the following to your config (replace $USERNAME with your username)
+                $ vim ~/.ssh/config
+                Host github.com
+                        User git
+                        Hostname github.com
+                        PreferredAuthentications publickey
+                        IdentityFile /home/$USERNAME/.ssh/id_rsa
+
+        Once this is done, you should be able to do [git] operations without a password.
+        You will need to accept the host key the first time by typing in "yes".
+        </div>
+
+        <div class="alert alert-info" markdown="1">
+        #### <i class="fa fa-code"></i> Text Editor
+        Any time you see references to `vim` in example commands, remember that
+        you can use any text editor such as `nano` or `emacs` instead.
+        </div>
+
+   ## Assignment Link
+   [https://classroom.github.com/a/uNaR3JWv](Link to Homework 01 on GitHub Classroom)
+ 
